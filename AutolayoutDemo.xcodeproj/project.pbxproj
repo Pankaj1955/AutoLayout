@@ -14,11 +14,6 @@
 		9AF0F98F2136744900069E8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AF0F98D2136744900069E8C /* LaunchScreen.storyboard */; };
 		9AF0F99A2136744900069E8C /* AutolayoutDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF0F9992136744900069E8C /* AutolayoutDemoTests.swift */; };
 		9AF0F9A52136744900069E8C /* AutolayoutDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF0F9A42136744900069E8C /* AutolayoutDemoUITests.swift */; };
-		9AF0F9B32136AE1E00069E8C /* SurvayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF0F9B22136AE1E00069E8C /* SurvayViewController.swift */; };
-		9AF0F9B52136B02C00069E8C /* SurvayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF0F9B42136B02C00069E8C /* SurvayModel.swift */; };
-		9AF0F9B72136B24100069E8C /* surveyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF0F9B62136B24100069E8C /* surveyTableViewCell.swift */; };
-		9AF0F9BA2136BB6800069E8C /* SingalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF0F9B82136BB6700069E8C /* SingalTableViewCell.swift */; };
-		9AF0F9BB2136BB6800069E8C /* SingalTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AF0F9B92136BB6800069E8C /* SingalTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,11 +47,6 @@
 		9AF0F9A02136744900069E8C /* AutolayoutDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutolayoutDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AF0F9A42136744900069E8C /* AutolayoutDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutolayoutDemoUITests.swift; sourceTree = "<group>"; };
 		9AF0F9A62136744900069E8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9AF0F9B22136AE1E00069E8C /* SurvayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurvayViewController.swift; sourceTree = "<group>"; };
-		9AF0F9B42136B02C00069E8C /* SurvayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurvayModel.swift; sourceTree = "<group>"; };
-		9AF0F9B62136B24100069E8C /* surveyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = surveyTableViewCell.swift; sourceTree = "<group>"; };
-		9AF0F9B82136BB6700069E8C /* SingalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingalTableViewCell.swift; sourceTree = "<group>"; };
-		9AF0F9B92136BB6800069E8C /* SingalTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SingalTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,11 +100,6 @@
 				9AF0F9842136744900069E8C /* AppDelegate.swift */,
 				9AF0F9862136744900069E8C /* ViewController.swift */,
 				9AF0F9882136744900069E8C /* Main.storyboard */,
-				9AF0F9B22136AE1E00069E8C /* SurvayViewController.swift */,
-				9AF0F9B62136B24100069E8C /* surveyTableViewCell.swift */,
-				9AF0F9B82136BB6700069E8C /* SingalTableViewCell.swift */,
-				9AF0F9B92136BB6800069E8C /* SingalTableViewCell.xib */,
-				9AF0F9B42136B02C00069E8C /* SurvayModel.swift */,
 				9AF0F98B2136744900069E8C /* Assets.xcassets */,
 				9AF0F98D2136744900069E8C /* LaunchScreen.storyboard */,
 				9AF0F9902136744900069E8C /* Info.plist */,
@@ -248,7 +233,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9AF0F98F2136744900069E8C /* LaunchScreen.storyboard in Resources */,
-				9AF0F9BB2136BB6800069E8C /* SingalTableViewCell.xib in Resources */,
 				9AF0F98C2136744900069E8C /* Assets.xcassets in Resources */,
 				9AF0F98A2136744900069E8C /* Main.storyboard in Resources */,
 			);
@@ -277,10 +261,6 @@
 			files = (
 				9AF0F9872136744900069E8C /* ViewController.swift in Sources */,
 				9AF0F9852136744900069E8C /* AppDelegate.swift in Sources */,
-				9AF0F9B72136B24100069E8C /* surveyTableViewCell.swift in Sources */,
-				9AF0F9B32136AE1E00069E8C /* SurvayViewController.swift in Sources */,
-				9AF0F9B52136B02C00069E8C /* SurvayModel.swift in Sources */,
-				9AF0F9BA2136BB6800069E8C /* SingalTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
