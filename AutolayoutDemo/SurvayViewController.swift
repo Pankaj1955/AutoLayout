@@ -52,7 +52,7 @@ extension SurvayViewController:UITableViewDelegate,UITableViewDataSource{
             case .SingleChoice:
              
                  let cellText = Bundle.main.loadNibNamed("SingalTableViewCell", owner: self, options: nil)? [0] as! SingalTableViewCell
-                cellText.questionLabel.text = "Are you looking for some alternative ?"
+                cellText.questionLabel.text = "This is very best example of ios app i have ever seen......."
                 cellText.answerTextView.text = "-"
                 cell = cellText
                 
